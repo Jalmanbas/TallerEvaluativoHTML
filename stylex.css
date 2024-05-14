@@ -1,6 +1,6 @@
 .encabezado{
   background-image: url(img/header.jpg);
- background-size:cover;
+ background-size:100%;
  background-repeat: no-repeat;
 width: 100%;
 height: 100vh;
@@ -10,8 +10,9 @@ padding-bottom: 0;
 }
 
 .encabezado nav ul{
+    margin-top: 125px;
     list-style: none;
-       
+    margin-right: 45px;
 }
 .encabezado nav ul li{
     
@@ -23,21 +24,45 @@ padding-bottom: 0;
     font-size: 20px;
     text-decoration: none;
     color: white;
+    padding: 20px;
+}
+.encabezado nav  ul li a:hover{
+
+    color: #7fb84a;
 }
 
-.encabezado h2{
-    margin-top: 25%;
-    margin-left: 5%;
-    margin-bottom: 10%;
-    position: relative;
+.encabezado h1{
+   
+    
     width: 450px;
     color: white;
     font-size:xx-large;
+    padding: 25px;
+    margin-left: 69px;
+    margin-top: 250px;
+}
+.navegacion{
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+.navegacion img{
+    margin-top: 100px;
+    height: 50px;
+    margin-left: 150px;
+}
+ul{
+    width: 100%;
+    display: flex;
+    justify-content: end;
 }
 
-main{
-    margin-top: 0;
 
+
+main{
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 16em;
 }
 .moreustitle{
     text-align: center;
@@ -46,22 +71,172 @@ main{
     
 }
 .moreus{
+    align-content: center;
     width: 100%;
-    display: flex;
+    text-align: center;
 }
 
 .moreus article{
-  border: 1px dotted aqua;
+    text-align: center;
+    align-content: center;
+  width: 250px;
+  display: inline-block;
+  
 }
 
-.navegacion{
-    display: flex;
-    width: 100%;
-    height: auto;
+.hometosell{
+
+align-content: center;
+width: 100%;
+text-align: center;
+
 }
 
-ul{
-    width: 100%;
+.hometosell article{
+    text-align: center;
+    align-content: center;
+    width: 200px;
+    display: inline-block;
+    background-color: #efeff7;
+}
+
+.ad {
+    margin: 0 0 0 0;
+   width: 100%;
+   height: 100%;
+
+
+}
+.ad img{
+height: 100%;
+width: 100%;
+
+}
+
+.iconitos{
     display: flex;
-    justify-content: end;
+    width: 200px;
+    justify-content: space-between;
+}
+.iconitos figure{
+    margin: 0 ;
+    padding: 0;
+    
+}
+.iconitos img{
+    height: 25px
+}
+.hometosell em{
+    color: #7fb84a;
+
+}
+.hometosell article button{
+background-color: #e18838;
+text-align: center;
+color: white;
+width: 150px;
+height: 30px;
+margin-bottom: 5px;
+border: none;
+}
+.todas{
+    text-align: center;
+    margin-top: 25px;
+margin-left: 535px;
+background-color: #7fb84a;
+color: white;
+justify-content: center;
+font-size: smaller;
+border: none;
+height: 30px;
+}
+.misc{
+    width: 100%;
+}
+.banner{
+    margin-top: 6em;
+    background-image: url(img/encuentra.jpg);
+    background-repeat: no-repeat;
+    background-size: center;
+    width:100%;
+    color: white;
+    text-align: center;
+}
+.banner h3{
+    padding-top: 60px;
+    margin-bottom: 40px;
+}
+.banner h4{
+    margin-top: 40px;
+   
+}
+.banner button{
+    margin-top: 40px;
+    margin-bottom: 60px;
+    background-color: #e18838;
+    color:  white;
+    border: none;
+    height: 30px;
+    font-size: x-small;
+    padding: 1em;
+}
+
+.blog{
+
+    display: flex;
+}
+
+
+
+footer{
+    display: grid;
+width: 100%;
+height: fit-content;
+ background-color: #2f3340;
+}
+
+footer ul{
+    justify-content: left;
+    list-style: none;
+    color: white;
+}
+footer ul li a{
+    margin: 15px;
+    color: white;
+    text-decoration: none;
+}
+footer ul li a:hover{
+color: #7fb84a;
+}
+footer h5{
+    color: white;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.misc{
+     width: 100%;
+display: flex;
+}
+
+.blog{
+
+    width: 100%;
+    display:flex;
+    justify-content: center;
+}
+
+aside h3{
+    text-align: center;
+}
+ aside p{
+  
+    align-content: center;
+    width: 200px;
+    height: 260px;
+    background-color: #7fb84a;
+    border-radius: 4px;
+    color: white;
+    text-align: center;
+    justify-content: center;
 }
