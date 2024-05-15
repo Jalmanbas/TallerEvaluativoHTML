@@ -10,9 +10,9 @@ padding-bottom: 0;
 }
 
 .encabezado nav ul{
-    margin-top: 125px;
+    margin-top: 175px;
     list-style: none;
-    margin-right: 45px;
+    margin-right: 105px;
 }
 .encabezado nav ul li{
     
@@ -24,7 +24,7 @@ padding-bottom: 0;
     font-size: 20px;
     text-decoration: none;
     color: white;
-    padding: 20px;
+    padding: 5px;
 }
 .encabezado nav  ul li a:hover{
 
@@ -38,8 +38,8 @@ padding-bottom: 0;
     color: white;
     font-size:xx-large;
     padding: 25px;
-    margin-left: 69px;
-    margin-top: 250px;
+    margin-left: 99px;
+    margin-top: 450px;
 }
 .navegacion{
     display: flex;
@@ -48,7 +48,7 @@ padding-bottom: 0;
 }
 .navegacion img{
     margin-top: 100px;
-    height: 50px;
+    height: 100px;
     margin-left: 150px;
 }
 ul{
@@ -62,7 +62,7 @@ ul{
 main{
     width: 100%;
     margin-top: 0;
-    margin-bottom: 16em;
+    margin-bottom: auto;
 }
 .moreustitle{
     text-align: center;
@@ -79,8 +79,9 @@ main{
 .moreus article{
     text-align: center;
     align-content: center;
-  width: 250px;
+  width: 240px;
   display: inline-block;
+    padding: 45px;
   
 }
 
@@ -98,6 +99,8 @@ text-align: center;
     width: 200px;
     display: inline-block;
     background-color: #efeff7;
+    padding: 45px;
+    margin: 5px;
 }
 
 .ad {
@@ -128,6 +131,7 @@ width: 100%;
 }
 .hometosell em{
     color: #7fb84a;
+    font-style: normal;
 
 }
 .hometosell article button{
@@ -142,7 +146,7 @@ border: none;
 .todas{
     text-align: center;
     margin-top: 25px;
-margin-left: 535px;
+margin-left: 735px;
 background-color: #7fb84a;
 color: white;
 justify-content: center;
@@ -157,8 +161,9 @@ height: 30px;
     margin-top: 6em;
     background-image: url(img/encuentra.jpg);
     background-repeat: no-repeat;
-    background-size: center;
+    background-size: 100% 100%;
     width:100%;
+    min-height: 350px;
     color: white;
     text-align: center;
 }
@@ -181,15 +186,12 @@ height: 30px;
     padding: 1em;
 }
 
-.blog{
 
-    display: flex;
-}
 
 
 
 footer{
-    display: grid;
+display: grid;
 width: 100%;
 height: fit-content;
  background-color: #2f3340;
@@ -215,21 +217,44 @@ footer h5{
 }
 
 .misc{
-     width: 100%;
+width: 100%;
 display: flex;
+justify-content: center;
+
 }
 
 .blog{
-
-    width: 100%;
+    
     display:flex;
-    justify-content: center;
+    flex-direction: column;
+    
 }
 
-aside h3{
+.blog div{
+
+    display: flex;
+    height: 100%;
+}
+.blog figure{
+    margin: 0 10px 0 0;
+}
+.blog figure img{
+    position: static;
+}
+.rayita{
+    max-height: 4px;
+    width: 120px;
+    background-color: #6aad2b;
+}
+.testimoniales{
+    display: flex;
+    flex-direction: column;
+}
+
+.testimoniales h3{
     text-align: center;
 }
- aside p{
+.testimoniales p{
   
     align-content: center;
     width: 200px;
@@ -239,4 +264,28 @@ aside h3{
     color: white;
     text-align: center;
     justify-content: center;
+   margin-left: 10px;
+}
+
+.centrico {
+    display: flex;
+    flex-direction: column;
+    max-height: 100%;
+    width: max-content;
+    margin-right:10px ;
+}
+
+.centrico em{
+    color: #e39047;
+    text-decoration: none;
+    font-style: normal;
+}
+
+.centrico h4{
+    height: min-content;
+    margin: 0;
+}
+.centrico p{
+    max-height: 100%;
+    font-size: small;
 }
