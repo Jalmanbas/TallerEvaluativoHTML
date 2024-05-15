@@ -255,6 +255,7 @@ justify-content: center;
     text-align: center;
 }
 .testimoniales p{
+    padding: 25px;
     align-content: center;
     width: 200px;
     height: 260px;
