@@ -221,7 +221,7 @@ footer h5{
 width: 100%;
 display: flex;
 justify-content: center;
-
+flex-wrap: wrap;
 }
 
 .blog{
@@ -247,6 +247,7 @@ justify-content: center;
     background-color: #6aad2b;
 }
 .testimoniales{
+    position: relative;
     display: flex;
     flex-direction: column;
 }
