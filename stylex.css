@@ -94,8 +94,8 @@ text-align: center;
 .hometosell article{
     text-align: center;
     align-content: center;
-    width: 250px;
-    font-size: medium;
+    width: 350px;
+    font-size: large;
     display: inline-block;
     background-color: #efeff7;
     margin: 5px;
@@ -133,7 +133,8 @@ width: 100%;
 .precio{
     color: #7fb84a;
     font-style: normal;
-
+    justify-content: left;
+    
 }
 .hometosell article button{
 background-color: #e18838;
@@ -147,7 +148,7 @@ border: none;
 .todas{
     text-align: center;
     margin-top: 25px;
-margin-left: 735px;
+margin-left: 990px;
 background-color: #7fb84a;
 color: white;
 justify-content: center;
