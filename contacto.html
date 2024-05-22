@@ -18,7 +18,67 @@
             </ul>
         </nav>
     </header>
-    
+    <main>
+        <section class="form">
+            <h2>Contacto</h2>
+            <figure>
+                <img src="../TallerEvaluativoHTML/img/destacada3.jpg" alt="">
+            </figure>
+            <fieldset>
+                <legend>
+                        Información Personal
+                </legend>
+                <form action="">
+                    <label for="">NOMBRE</label><br>
+                    <input type="text" placeholder="Tu Nombre">
+                    <label for="">E-MAIL</label><br>
+                    <input type="email" placeholder="Tu Email">
+                    <label for="">TELÉFONO</label><br>
+                    <input type="number" >
+                    <label for="">MENSAJE:</label><br>
+                    <input type="text" name="mensaje">
+
+
+
+                </form>
+            </fieldset>
+            <fieldset>
+                <legend>
+                    Información sobre la propiedad
+                </legend>
+                <form action="">
+                <label for="voc">VENDE O COMPRA</label><br>
+                <select name="voc" >
+                    <option value="seleccione" disabled>--Seleccione--</option>
+                    <option value="compra">COMPRA</option>
+                    <option value="vende">VENDE</option>
+
+                </select><br>
+                <label for="budget">
+                    PRECIO O PRESUPUESTO
+                </label><br>
+                <input type="number" name="budget" placeholder="Tu Precio o Presupuesto">
+            </form>
+            </fieldset>
+
+            <fieldset>
+                <legend>
+                    Información para el contacto
+                </legend>
+                <label for="wish">como desea ser contactado</label><br>
+                <label for="">TELÉFONO</label><input type="radio" name="wish" >
+                <label for="">EMAIL</label><input type="radio" name="wish" ><br>
+                <label for="">si eligió telefono, elija la fecha y la hora</label><br>
+                <label for="fechacontacto">FECHA:</label><br>
+                <input type="date" name="fechacontacto">
+                <label for="horacontacto">HORA:</label><br>
+                <input type="time" name="horacontacto">
+
+
+            </fieldset>
+            <input type="submit">
+        </section>
+    </main>
 
 
 
