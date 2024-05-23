@@ -7,9 +7,9 @@
     <link rel="stylesheet" href="stylex.css">
 </head>
 <body>
-    <header class="headercontacto">
-        <nav class="navcontacto">
-            <a href="index.html"> <img src="../TallerEvaluativoHTML/img/logo.svg" alt=""></a>
+    <header class="headercito">
+        <nav class="navcito">
+            <a href="index.html"> <img src="img/logo.svg" alt=""></a>
             <ul>
                 <li><a href="nosotros.html">Nosotros</a></li>
                 <li><a href="anuncios.html">Anuncios</a></li>
@@ -21,22 +21,23 @@
     <main>
         <section class="form">
             <h2>Contacto</h2>
-            <figure>
-                <img src="../TallerEvaluativoHTML/img/destacada3.jpg" alt="">
-            </figure>
+            
+                <img src="img/destacada3.jpg" alt="">
+            
+                <h2>Llene el formulario para tener sus datos y contactarlo</h2>
             <fieldset>
                 <legend>
                         Información Personal
                 </legend>
                 <form action="">
-                    <label for="">NOMBRE</label><br>
+                   <b> <label for="">NOMBRE</label></b><br>
                     <input type="text" placeholder="Tu Nombre">
-                    <label for="">E-MAIL</label><br>
+                    <b><label for="">E-MAIL</label></b><br>
                     <input type="email" placeholder="Tu Email">
-                    <label for="">TELÉFONO</label><br>
-                    <input type="number" >
-                    <label for="">MENSAJE:</label><br>
-                    <input type="text" name="mensaje">
+                   <b></b> <label for="">TELÉFONO</label></b><br>
+                    <input type="number" placeholder="Tu Teléfono">
+                   <b> <label for="mensaje">MENSAJE:</label></b><br>
+                    <textarea name="mensaje" id=""></textarea>
 
 
 
@@ -47,16 +48,16 @@
                     Información sobre la propiedad
                 </legend>
                 <form action="">
-                <label for="voc">VENDE O COMPRA</label><br>
+                <b><label for="voc">VENDE O COMPRA</label></b><br>
                 <select name="voc" >
-                    <option value="seleccione" disabled>--Seleccione--</option>
+                    <option value="seleccione" selected disabled hidden>--Seleccione--</option>
                     <option value="compra">COMPRA</option>
                     <option value="vende">VENDE</option>
 
                 </select><br>
-                <label for="budget">
+               <b> <label for="budget">
                     PRECIO O PRESUPUESTO
-                </label><br>
+                </label></b><br>
                 <input type="number" name="budget" placeholder="Tu Precio o Presupuesto">
             </form>
             </fieldset>
@@ -65,18 +66,21 @@
                 <legend>
                     Información para el contacto
                 </legend>
+                <form action="">
                 <label for="wish">como desea ser contactado</label><br>
-                <label for="">TELÉFONO</label><input type="radio" name="wish" >
-                <label for="">EMAIL</label><input type="radio" name="wish" ><br>
+               <b> <label for="">TELÉFONO</label><input type="radio" name="wish" class="wish">
+                <label for="">EMAIL</label><input type="radio" name="wish" class="wish"><br></b>
                 <label for="">si eligió telefono, elija la fecha y la hora</label><br>
-                <label for="fechacontacto">FECHA:</label><br>
-                <input type="date" name="fechacontacto">
+               <b> <label for="fechacontacto">FECHA:</label><br>
+                <input type="date" name="fechacontacto" class="fechita"><br>
                 <label for="horacontacto">HORA:</label><br>
-                <input type="time" name="horacontacto">
-
+                <input type="time" name="horacontacto"></b>
+            </form>
 
             </fieldset>
-            <input type="submit">
+            <div class="botoncito">
+            <input type="submit" class="enviocontacto">
+        </div>
         </section>
     </main>
 
